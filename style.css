@@ -1,0 +1,81 @@
+#profile_picture {
+  width: 100px;
+  border-radius: 30%;
+}
+
+body {
+  background-color: #F7F9FC;
+  text-align: center;
+}
+
+.text_paraph {
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#center_paraph {
+  padding: 10px;
+  padding-left: 100px
+  padding-right: 100px;
+}
+
+#fun_facts {
+color: green;
+text-decoration: none
+}
+
+#fun_facts:hover {
+color: red;
+}
+
+#list-in {
+  list-style: none;
+  padding-left: 0px ;
+}
+
+#list-in li {
+  display: inline;
+  color: red;
+  padding-left: 0;
+  text-decoration:none;
+  padding: 10px;
+  font-size: 50px;
+}
+
+#list-in a {
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+.container   {
+ background-color: #FFFFFF;
+ margin: auto;
+ width: 900px;
+ box-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+ border-radius: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
